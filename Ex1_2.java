@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class Ex1_2 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter Celsius degree: ");
+        double c = sc.nextDouble();
+        
+        double f = c * 9.0 / 5 + 32;
+        System.out.println("Fahrenheit = " + f);
+        sc.close();
+    }
+}
+
